@@ -26,14 +26,19 @@ Some guidelines and tips:
 OK, here we go.
 
 # Title of my project
+Genetic Variation Among Channel Island Foxes
 
 ## Introduction and Goals
 
-The goal of my project is to answer the question, What is...?
+The goal of my project is to answer the question, What is... the degree of genetic variation among Channel Island foxes and how does this compare to mainland foxes? I will use this to investigate how these small populations vary from one another and some of the potential implications of this lack of genetic diversity. I will then expand the project to also include an investigation into the accumulation of damaging genetic variants by island foxes (as a result of low diversity) and at which parts of the genome these are most likely to occur. This will then lead to a discussion of the potential future of the island foxes. This will include how to protect and ensure the persistence of these endangered populations of foxes, as well as other ideas of conservation. 
+
+I may also potentially expand the project to include an analysis on the genetic variation between closely related mainland fox species. I will then compare this genetic diversity to that of the island foxes and discuss the possible implications. 
 
 The methods I will use to do this are...
+I will clean up and analyze the data using VS code. I will then align the data using mafft. From this aligned sequence, I will be able to determine how the different foxes vary from one another and where in the genomic sequences this occurs. I will use iqtree to infer a phylogeny of the island foxes, while also including some mainland fox ancestors (using RStudio/ remote cluster). I can also make a graph of the heterozygosity at each chromosome for each of the foxes, which will help to assess the genetic variation among the populations of foxes on each island.
 
 The data I will use are (my own data/ data publicly available at YYY/ simulations)
+data publicly available at NCBI's Sequence Read Archive -- Project PRJNA312115. I may also use data from the Catalina Island Conservancy from my internship this past summer. 
 
 ## Methods
 
