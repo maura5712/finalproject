@@ -41,7 +41,23 @@ data publicly available at NCBI's Sequence Read Archive -- Project PRJNA312115. 
 
 ## Methods
 
-The tools I used were... See analysis files at (links to analysis files).
+The tools I used were... 
+
+Channel Island foxes:
+1. mafft -- multiple sequence alignment
+2. IQ tree -- Channel Island foxes & mainland fox ancestors (outgroup), with bootstrap support
+3. PCA plot (in R) to show distribution of fox species
+4. Analyses (in R) -- plot coloration, size, muzzle shape, tail length; assess variation within island populations (degree of heterozygosity)
+
+Repeat for mainland foxes:
+1. mafft -- multiple sequence alignment
+2. IQ tree with bootstrap support (Channel Island vs mainland fox groups highlighted)
+3. PCA plot
+4. Analysis of variation -- for individual fox species compared to the clade as a whole (both mainland and Channel Island included) and compare diversity within Channel Island vs mainland populations
+5. assess heterozygosity in mainland vs Channel Island populations as a measure of genetic variation
+
+
+See analysis files (uploaded).
 
 ## Results
 
