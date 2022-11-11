@@ -25,8 +25,7 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Title of my project
-Genetic Variation Among Channel Island Foxes
+# Genetic Variation Among Channel Island Foxes
 
 ## Introduction and Goals
 
