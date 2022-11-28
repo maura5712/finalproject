@@ -58,8 +58,8 @@ Repeat for mainland foxes:
 
 
 See analysis files (uploaded).
-- bulk of analysis files to be uploaded by Sunday night 11/27. 
-- any remaining files by Monday 11/28
+- bulk of analysis files to be uploaded by Monday night 11/28. 
+- any remaining files by Tuesday 11/29
 
 ## Results
 
