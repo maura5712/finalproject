@@ -1,0 +1,20 @@
+---
+title: "Genetic Variation among Channel Island Foxes"
+output: pdf_document
+date: "2022-11-11"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ape)
+
+```
+
+```{r fig.width=28, fig.height=12}
+
+phy = read.tree("islandmito.fasta.treefile")
+plot(phy)
+
+```
+
