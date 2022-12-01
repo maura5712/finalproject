@@ -58,8 +58,11 @@ Repeat for mainland foxes:
 
 
 See analysis files (uploaded).
-- bulk of analysis files to be uploaded by Monday night 11/28. 
-- any remaining files by Tuesday 11/29
+- aligned sequences and tree for mitochondrial genome sequences of island foxes with grey fox (CA mainland fox) outgroup
+- aligned sequences for mainland fox tree for comparison of island/mainland fox diversity
+
+- trees created using NCBI's genome workbench, as well as RStudio
+
 
 ## Results
 
