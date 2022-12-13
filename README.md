@@ -38,32 +38,46 @@ I will also expand the project to include an analysis on the genetic variation b
 The methods I will use to do this are...
 I will clean up and analyze the data using VS code. I will then align the data using MAFFT. From this aligned sequence, I will be able to determine how the different foxes vary from one another and where in the genomic sequences this occurs. I will use IQTREE to infer a phylogeny of the island foxes, while also including some mainland fox ancestors (using RStudio/ remote cluster). I will also make a graph of the heterozygosity at each chromosome for each of the foxes, which will help to assess the genetic variation among the populations of foxes on each island.
 
-The data I will use are data publicly available at NCBI's GenBank. Species include Urocyon littoralis, Urocyon cinereoargenteus, Vulpes Vulpes, Vulpes macrotis, and Canis lupus lupus (accession IDs can be found in uploaded files -- islandmito.fasta, mainland.fasta, and mainland2.fasta. 
+The data I will use are mitochondrial genome data publicly available at NCBI's GenBank. Species include Urocyon littoralis, Urocyon cinereoargenteus, Vulpes Vulpes, Vulpes macrotis, and Canis lupus lupus (accession IDs can be found in uploaded files -- islandmito.fasta, mainland.fasta, and mainland2.fasta. 
 
 ## Methods
 
 The tools I used were... 
 
-Channel Island foxes:
-1. mafft -- multiple sequence alignment
-2. IQ tree -- Channel Island foxes & mainland fox ancestors (outgroup), with bootstrap support
-3. PCA plot (in R) to show distribution of fox species
-4. Analyses (in R) -- plot coloration, size, muzzle shape, tail length; assess variation within island populations (degree of heterozygosity)
+#Channel Island foxes:
 
-Repeat for mainland foxes:
-1. mafft -- multiple sequence alignment
-2. IQ tree with bootstrap support (Channel Island vs mainland fox groups highlighted)
-3. PCA plot
-4. Analysis of variation -- for individual fox species compared to the clade as a whole (both mainland and Channel Island included) and compare diversity within Channel Island vs mainland populations
-5. assess heterozygosity in mainland vs Channel Island populations as a measure of genetic variation
+NCBI Genome Workbench
+1. Phylogenetic tree
+2. Multiple sequence alignment viewer (with differences shown)
 
+Remote Cluster, RStudio
+1. MAFFT -- multiple sequence alignment
+2. IQ-TREE -- Channel Island foxes & mainland fox ancestors (outgroup), with bootstrap support
+3. Analysis of genetic diversity -- SNP density, allele frequency distribution, polymorphic sites
+4. Analysis of overall population size and density for each island -- plot population size over span of ~20 years, plot population density
+
+#Mainland foxes:
+
+NCBI Genome Workbench
+1. Multiple sequence alignment viewer (with differences shown)
+
+Remote Cluster, RStudio
+1. MAFFT -- multiple sequence alignment
+2. IQ-TREE -- island foxes, mainland foxes (gray fox, red fox, kit fox), gray wolf
+3. Analysis of genetic diversity -- SNP density, allele frequency distribution, polymorphic sites
+
+#Analysis of genetic diversity
+1. Compare SNP density & allele frequency found in mainland foxes vs island foxes
+2. Assess heterozygosity in mainland vs Channel Island populations as a measure of genetic variation
 
 See analysis files (uploaded).
-- aligned sequences and tree for mitochondrial genome sequences of island foxes with grey fox (CA mainland fox) outgroup
-- aligned sequences for mainland fox tree for comparison of island/mainland fox diversity
-
-- trees created using NCBI's genome workbench, as well as RStudio
-
+- fasta files 
+    - islandmito: island foxes mitochondrial genomes
+    - mainland: mainland foxes & gray wolf mitochondrial genomes
+    - mainland2: subset of mainland fox & gray wolf mitochondrial genomes used in SNP analysis
+- final_proj.pdf -- RStudio pdf output -- contains trees, SNP analyses, population plots, table of SNP locations
+- Remote cluster files -- job script, tree outputs
+- figures folder -- images of all figures used in analysis
 
 ## Results
 
@@ -74,8 +88,12 @@ The tree in Figure 1...
 These results indicate...
 
 The biggest difficulty in implementing these analyses was...
+- not a lot of data on island foxes
+- time, space
 
 If I did these analyses again, I would...
+- limitations of not enough data
+- could do whole genome analysis as well -- need computer with larger memory space, timely
 
 ## References
 
