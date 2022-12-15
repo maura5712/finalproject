@@ -83,6 +83,7 @@ See analysis files (uploaded).
 - figures folder -- images of all figures used in analysis
 
 ## Results
+<img width="510" alt="island_tree_accepted" src="https://user-images.githubusercontent.com/117139419/207952586-b911b79b-2209-43f3-89a0-f174eebc4355.png">
 
 The tree in Figure 1...
 
