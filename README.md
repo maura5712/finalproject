@@ -57,7 +57,6 @@ Remote Cluster, RStudio
 1. MAFFT -- multiple sequence alignment
 2. IQ-TREE -- Channel Island foxes & mainland fox ancestors (outgroup), with bootstrap support
 3. Analysis of genetic diversity -- SNP density, allele frequency distribution, polymorphic sites
-4. Analysis of overall population size and density for each island -- plot population size over span of ~20 years, plot population density
 
 Mainland foxes:
 
