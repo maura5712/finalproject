@@ -86,7 +86,7 @@ See analysis files (uploaded).
 
 General Population Trends of the Island Fox
 
-<img width="510" alt="island_tree_accepted" src="https://user-images.githubusercontent.com/117139419/207952586-b911b79b-2209-43f3-89a0-f174eebc4355.png">Fig. 1 -- Most commonly recognized phylogeny for the island fox subspecies, with the gray fox (Urocyon cinereoargenteus) included as the outgroup. 
+<img width="510" alt="island_tree_accepted" src="https://user-images.githubusercontent.com/117139419/207952586-b911b79b-2209-43f3-89a0-f174eebc4355.png"> Fig. 1 -- Most commonly recognized phylogeny for the island fox subspecies, with the gray fox (Urocyon cinereoargenteus) included as the outgroup. 
 
 
 <img width="622" alt="island_pop_size" src="https://user-images.githubusercontent.com/117139419/207971932-68274d30-998a-4014-bc29-155685928f5b.png">Fig. 2 -- Island fox populations by island between 1994 and 2018 (source: Friends of the Island Fox). 
