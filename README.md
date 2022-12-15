@@ -38,7 +38,7 @@ I will also expand the project to include an analysis on the genetic variation b
 The methods I will use to do this are...
 I will clean up and analyze the data using VS code. I will then align the data using MAFFT. From this aligned sequence, I will be able to determine how the different foxes vary from one another and where in the genomic sequences this occurs. I will use IQTREE to infer a phylogeny of the island foxes, while also including some mainland fox ancestors (using RStudio/ remote cluster). I will also make a graph of the heterozygosity at each chromosome for each of the foxes, which will help to assess the genetic variation among the populations of foxes on each island.
 
-The data I will use are mitochondrial genome data publicly available at NCBI's GenBank. Species include Urocyon littoralis, Urocyon cinereoargenteus, Vulpes Vulpes, Vulpes macrotis, and Canis lupus lupus (accession IDs can be found in uploaded files -- islandmito.fasta, mainland.fasta, and mainland2.fasta. 
+The data I will use are mitochondrial genome data publicly available at NCBI's GenBank. Species include Urocyon littoralis, Urocyon cinereoargenteus, Vulpes Vulpes, Vulpes macrotis, and Canis lupus lupus (accession IDs can be found in uploaded files -- islandmito.fasta, mainland.fasta, and mainland2.fasta). 
 
 ## Methods
 
