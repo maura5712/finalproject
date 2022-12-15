@@ -116,7 +116,6 @@ The results in Figs. 3 and 4 were generated using 20 mitochondrial genome sequen
 <img width="1129" alt="msa_island" src="https://user-images.githubusercontent.com/117139419/207975988-658481fd-c157-4b22-a742-efb9860e570f.png">
 Fig. 5 -- Multiple sequence alignment of island and gray fox mitochondrial genome sequences with differences between sequences highlighted. 
 
-
 Mainland Ancestors
 
 <img width="673" alt="mainland_tree" src="https://user-images.githubusercontent.com/117139419/207976374-04683364-097e-4e05-acb2-c793f6b8f2c9.png">
