@@ -173,15 +173,22 @@ Figs. 14 and 15 -- Distribution of allele frequencies in island fox populations.
 
 ## Discussion
 
-These results indicate...
+These results indicate that, compared to their mainland relatives (gray fox, kit fox, red fox, and gray wolf), island foxes have a relatively low degree of genetic variation. This is problematic for the persistence of island fox populations. As they are already small in size, island fox populations face an increased threat of extinction due to this low genetic diversity. Due to a low degree of heterozygosity across the genomes, island foxes do not have many mutations that would be beneficial to survival when faced with environmental pressures, such as disease or drought. This means that events such as these could easily cause the entire island fox population to go to extinction. 
 
-The biggest difficulty in implementing these analyses was...
-- not a lot of data on island foxes
-- time, space
+There are several ongoing projects on the Channel Islands to help protect island fox populations:
+* Vehicle and aerial telemetry
+* Yearly trapping, blood sampling for disease, and vaccination
+* Survival database to track mortalities and identify main causes of fox mortality
+
+Through these efforts, the Island Fox Working Group has been able to increase fox populations to levels comparable to those before the population bottleneck occurred. This allowed the island fox's status to downgrade from endangered to near threatened. 
+
+
+The biggest difficulty in implementing these analyses was the lack of available data on island foxes. Island foxes have small populations and, therefore, there are very few genetic samples to utilize for analysis. A larger data set for analysis improves the accuracy of the results -- a larger sample size is always preferrable.
 
 If I did these analyses again, I would...
-- limitations of not enough data
-- could do whole genome analysis as well -- need computer with larger memory space, timely
+* look for genomic sequences that have more samples with a high degree of similarity -- was difficult to do analyses on both island foxes and gray foxes as both populations have a relatively low amount of data available for use
+* there was also the possibility of analyzing whole genome sequences, but the mitochondrial genome sequences were more efficient for time/space
+* budget more time for analyses to run & more memory space on the computer for larger data files
 
 ## References
 
