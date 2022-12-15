@@ -31,7 +31,7 @@ OK, here we go.
 
 Channel Island foxes are a species of fox, Urocyon littoralis, that are endemic to six of the eight Channel Islands in California. The island foxes were once near extinction, as a result of their low genetic diversity; however, due to conservation efforts, the island fox is now considered "near threatened."
 
-The goal of my project is to answer the question, What is... the degree of genetic variation among Channel Island foxes and how does this compare to mainland foxes? I will use this to investigate how these small populations vary from one another and some of the potential implications of this lack of genetic diversity. This will then lead to a discussion of the potential future of the island foxes. This will include how to protect and ensure the persistence of these endangered populations of foxes, as well as other ideas of conservation. 
+The goal of my project is to answer the question, What is... the degree of genetic variation among Channel Island foxes and how does this compare to mainland foxes? I will use this to investigate how these small populations vary from one another and some of the potential implications of this lack of genetic diversity. This will then lead to a discussion of the potential future of the island foxes. This will include how to protect and ensure the persistence of these once-endangered populations of foxes, as well as other ideas of conservation. 
 
 I will also expand the project to include an analysis on the genetic variation between closely related mainland fox species. I will then compare this genetic diversity to that of the island foxes and discuss the possible implications. 
 
