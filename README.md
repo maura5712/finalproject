@@ -44,7 +44,10 @@ The data I will use are mitochondrial genome data publicly available at NCBI's G
 
 The tools I used were... 
 
-#Channel Island foxes:
+Channel Island foxes:
+
+Excel
+1. population plot
 
 NCBI Genome Workbench
 1. Phylogenetic tree
@@ -56,7 +59,7 @@ Remote Cluster, RStudio
 3. Analysis of genetic diversity -- SNP density, allele frequency distribution, polymorphic sites
 4. Analysis of overall population size and density for each island -- plot population size over span of ~20 years, plot population density
 
-#Mainland foxes:
+Mainland foxes:
 
 NCBI Genome Workbench
 1. Multiple sequence alignment viewer (with differences shown)
@@ -80,6 +83,7 @@ See analysis files (uploaded).
 - figures folder -- images of all figures used in analysis
 
 ## Results
+<img width="510" alt="island_tree_accepted" src="https://user-images.githubusercontent.com/117139419/207952586-b911b79b-2209-43f3-89a0-f174eebc4355.png">
 
 The tree in Figure 1...
 
