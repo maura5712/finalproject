@@ -116,6 +116,7 @@ The results in Figs. 3 and 4 were generated using 20 mitochondrial genome sequen
 <img width="1129" alt="msa_island" src="https://user-images.githubusercontent.com/117139419/207975988-658481fd-c157-4b22-a742-efb9860e570f.png">
 Fig. 5 -- Multiple sequence alignment of island and gray fox mitochondrial genome sequences with differences between sequences highlighted. 
 
+
 Mainland Ancestors
 
 <img width="673" alt="mainland_tree" src="https://user-images.githubusercontent.com/117139419/207976374-04683364-097e-4e05-acb2-c793f6b8f2c9.png">
@@ -134,12 +135,37 @@ When comparing the sequence alignments in Figs. 5 and 7, it is evident that the 
 Comparison of SNPs and Allele Frequencies
 
 
-Island Fox
+Island Foxes
 
+<img width="611" alt="snp_dist_island" src="https://user-images.githubusercontent.com/117139419/207980857-059efedd-9ffb-427d-b1a5-035c6130e9d1.png">
+Fig. 8 -- Distribution of SNPs in island fox mitochondrial genomes, shown by density at each nucleotide position.
+
+<img width="585" alt="snp_loc_island" src="https://user-images.githubusercontent.com/117139419/207981286-19e17ede-14ce-4f4e-bb48-78d94fbaf3ec.png">
+Fig. 9 -- Location of SNPs in island fox mitochondrial genomes, given as density at each position in the sequence alignment. 
+
+<img width="606" alt="allele1_freq_island" src="https://user-images.githubusercontent.com/117139419/207981457-39653557-eb08-464d-8225-e993e83f967a.png">
+<img width="630" alt="dist_allele2_freq_island" src="https://user-images.githubusercontent.com/117139419/207982140-fafc2877-1616-4581-8b92-4d70481b6622.png">
+Figs. 10 and 11 -- Distribution of allele frequencies in island fox populations. 
 
 
 Mainland Ancestors
 
+<img width="615" alt="snp_dist_mainland" src="https://user-images.githubusercontent.com/117139419/207982339-f9d30356-f4c2-4ef4-8afe-c65da91fbd23.png">
+Fig. 12 -- Distribution of SNPs in mainland ancestor mitochondrial genomes, shown by density at each nucleotide position.
+
+<img width="623" alt="snp_loc_mainland" src="https://user-images.githubusercontent.com/117139419/207982400-03a121dc-e35e-4b88-b067-51ff8f7b1174.png">
+Fig. 13 -- Location of SNPs in mainland ancestor mitochondrial genomes, given as density at each position in the sequence alignment. 
+
+<img width="623" alt="allele1_freq_mainland" src="https://user-images.githubusercontent.com/117139419/207982436-0c6fffff-e313-4216-8fc1-7353c141b459.png">
+<img width="630" alt="allele2_freq_mainland" src="https://user-images.githubusercontent.com/117139419/207982459-452c9604-5df4-40ac-9011-31eb9bb02426.png">
+Figs. 14 and 15 -- Distribution of allele frequencies in island fox populations. 
+
+
+
+
+
+
+* Note: Tables of position, allele, and location of all SNPs for both analyses can be found in analysis_files -> final_proj.pdf
 
 
 ## Discussion
