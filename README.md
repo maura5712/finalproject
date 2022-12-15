@@ -166,7 +166,7 @@ Figs. 14 and 15 -- Distribution of allele frequencies in island fox populations.
 * SNPs indicate a position in the nucleotide in which genomic sequences vary. Therefore, a higher density of SNPs across nucleotide and alignment positions indicates a higher degree of genetic diversity between genomic sequences of a population. The results of the mainland ancestor represent the expected result, in which the mainland ancestors have a high degree of SNPs (compared to island foxes) across all positions in the nucletide. The island fox results, however, display that island foxes have relatively few SNPs between the genome sequences. Additionally, these SNPs tend to cluster at the same positions. Together, these results suggest that mainland ancestors have a high degree of diversity among their genomes (diversity is critical in population survival and persistence), while island foxes (across all islands) have very low diversity between their genomes.
 
 * The results in Figs. 14 and 15 show a normal distribution of allele frequencies in mainland ancestor populations. There is a large number of fixed alleles and some intermediate alleles. On the other hand, Figs. 10 and 11 show several intermediate allele frequencies. Such results are indicative of a population bottleneck. This is supported by the results in Fig. 2, which show a drastic decline in island fox populations on all islands around the year 2000. 
-* These results pose a challenge for island fox populations. As a species that already has demonstrated low genetic diversity, population bottlnecks further decrease population size and reduce genetic variation. 
+* These results pose a challenge for island fox populations. As a species that already has demonstrated low genetic diversity, population bottlenecks further decrease population size and reduce genetic variation. 
 
 * Note: Tables of position, allele, and location of all SNPs for both analyses can be found in analysis_files -> final_proj.pdf
 
@@ -185,6 +185,9 @@ If I did these analyses again, I would...
 
 ## References
 
-Friends of the Island Fox -- pop data
-CIC
-NCBI
+* Jacqueline A. Robinson, Diego Ortega-Del Vecchyo, Zhenxin Fan, Bernard Y. Kim, Bridgett M. vonHoldt, Clare D. Marsden, Kirk E. Lohmueller, Robert K. Wayne, Genomic Flatlining in the Endangered Island Fox, Current Biology, Volume 26, Issue 9, 2016, Pages 1183-1189, ISSN 0960-9822, https://doi.org/10.1016/j.cub.2016.02.062.
+* Wayne, R.K., George, S.B., Gilbert, D., Collins, P.W., Kovach, S.D., Girman, D. and Lehman, N. (1991), A MORPHOLOGIC AND GENETIC STUDY OF THE ISLAND FOX, UROCYON LITTORALIS. Evolution, 45: 1849-1868. https://doi.org/10.1111/j.1558-5646.1991.tb02692.x
+
+* Catalina Island Conservancy. https://www.catalinaconservancy.org/index.php?s=wildlife&p=recovery_of_the_catalina_island_fox
+* Friends of the Island Fox. http://www1.islandfox.org/
+* NCBI GenBank. https://www.ncbi.nlm.nih.gov/genbank/
