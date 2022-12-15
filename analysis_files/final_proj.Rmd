@@ -1,0 +1,157 @@
+---
+title: "Genetic Variation among Channel Island Foxes"
+output: pdf_document
+date: "2022-11-11"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ape)
+library(ggtree)
+library(knitr)
+library(ggplot2)
+library(adegenet)
+library(ade4)
+library(msa)
+library(seqinr)
+
+```
+
+```{r fig.width=28, fig.height=12}
+##ISLAND FOXES
+
+#plot phylogenetic tree
+phy = read.tree("islandmito.fasta.treefile")
+plot(phy)
+nodelabels(phy$node.label)
+
+```
+
+
+
+```{r}
+
+
+snp_island <- fasta2genlight('islandmito.fasta', snpOnly=T)
+
+position1 = position(snp_island)
+allele1 = alleles(snp_island)
+location1 = locNames(snp_island)
+
+D = data.frame(position1, allele1, location1)
+
+kable(D) 
+
+## plot positions of polymorphic sites
+temp <- density(position1, bw=10)
+plot(temp, xlab="Position in the alignment", lwd=2, main="Location of the SNPs")
+points(position1, rep(0, nLoc(snp_island)), pch="|", col="red")
+
+polygon(c(temp$x,rev(temp$x)), c(temp$y, rep(0,length(temp$x))),
+col=transp("blue",.3))
+points(position1, rep(0, nLoc(snp_island)), pch="|", col="blue")
+
+
+```
+
+```{r}
+
+#density by codon position
+snpposi.plot(position1, genome.size=1700, codon=FALSE)
+
+myFreq <- glMean(snp_island)
+hist(myFreq, proba=TRUE, col="gold", xlab="Allele frequencies",
+main="Distribution of (second) allele frequencies")
+temp <- density(myFreq)
+lines(temp$x, temp$y*1.8,lwd=3)
+
+myFreq <- glMean(snp_island)
+myFreq <- c(myFreq, 1-myFreq)
+hist(myFreq, proba=TRUE, col="darkseagreen3", xlab="Allele frequencies",
+main="Distribution of allele frequencies", nclass=20)
+temp <- density(myFreq, bw=.05)
+lines(temp$x, temp$y*2,lwd=3)
+
+
+```
+
+
+
+```{r fig.width=10, fig.height=14}
+
+##MAINLAND FOXES
+
+
+# Read sequences from FASTA file 
+sequence <- readAAStringSet("mainland.fasta")
+
+## Perform multiple sequence alignment
+my_alignment <- msa(sequence)
+
+## Compute distance matrix
+my_alignment_sequence <- msaConvert(my_alignment, type="seqinr::alignment")
+distance_alignment <- dist.alignment(my_alignment_sequence)
+
+## compute phylogenetic tree using neighbor joining
+Tree <- bionjs(distance_alignment)
+
+## display phylogenetic tree
+plot(Tree)
+
+```
+
+```{r}
+
+snp_mainland <- fasta2genlight('mainland2.fasta', snpOnly=T)
+
+position2 = position(snp_mainland)
+allele2 = alleles(snp_mainland)
+location2 = locNames(snp_mainland)
+
+D2 = data.frame(position2, allele2, location2)
+
+kable(D2) 
+
+## plot positions of polymorphic sites
+temp2 <- density(position2, bw=10)
+plot(temp2, xlab="Position in the alignment", lwd=2, main="Location of the SNPs")
+points(position2, rep(0, nLoc(snp_mainland)), pch="|", col="red")
+
+polygon(c(temp$x,rev(temp$x)), c(temp$y, rep(0,length(temp$x))),
+col=transp("blue",.3))
+points(position2, rep(0, nLoc(snp_mainland)), pch="|", col="blue")
+
+
+
+```
+```{r}
+
+#density by codon position
+snpposi.plot(position2, genome.size=1700, codon=FALSE)
+
+myFreq2 <- glMean(snp_mainland)
+hist(myFreq2, proba=TRUE, col="gold", xlab="Allele frequencies",
+main="Distribution of (second) allele frequencies")
+temp2 <- density(myFreq2)
+lines(temp2$x, temp2$y*1.8,lwd=3)
+
+myFreq2 <- glMean(snp_mainland)
+myFreq2 <- c(myFreq2, 1-myFreq2)
+hist(myFreq2, proba=TRUE, col="darkseagreen3", xlab="Allele frequencies",
+main="Distribution of allele frequencies", nclass=20)
+temp2 <- density(myFreq2, bw=.05)
+lines(temp2$x, temp2$y*2,lwd=3)
+
+
+```
+
+
+```{r}
+
+tree_island = "((((Urocyon_littoralis_clementae, Urocyon_littoralis_catalinae), Urocyon_littoralis_dickeyi), (Urocyon_littoralis_santacruzae, (Urocyon_littoralis_littoralis, Urocyon_littoralis_santarosae))), Urocyon_cinereoargenteus);"
+    check_tree = read.tree( text=tree_island)
+plot( check_tree )
+
+```
+
