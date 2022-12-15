@@ -161,9 +161,12 @@ Fig. 13 -- Location of SNPs in mainland ancestor mitochondrial genomes, given as
 Figs. 14 and 15 -- Distribution of allele frequencies in island fox populations. 
 
 
+* The results in Fig. 8 show that the SNPs in island fox genomes tend to cluster around the same nucleotide positions, with two large peaks around 400 and 1650. Fig. 12, however, shows a relatively even distribution of SNPs across the genomes of mainland ancestors. 
+* Fig. 9 displays lows densities of SNPs at a few positions in the island fox genome alignments, while Fig. 13 shows a high density of SNPs distributed relatively evenly across all positions in the alignments of mainland ancestors. 
+* SNPs indicate a position in the nucleotide in which genomic sequences vary. Therefore, a higher density of SNPs across nucleotide and alignment positions indicates a higher degree of genetic diversity between genomic sequences of a population. The results of the mainland ancestor represent the expected result, in which the mainland ancestors have a high degree of SNPs (compared to island foxes) across all positions in the nucletide. The island fox results, however, display that island foxes have relatively few SNPs between the genome sequences. Additionally, these SNPs tend to cluster at the same positions. Together, these results suggest that mainland ancestors have a high degree of diversity among their genomes (diversity is critical in population survival and persistence), while island foxes (across all islands) have very low diversity between their genomes.
 
-
-
+* The results in Figs. 14 and 15 show a normal distribution of allele frequencies in mainland ancestor populations. There is a large number of fixed alleles and some intermediate alleles. On the other hand, Figs. 10 and 11 show several intermediate allele frequencies. Such results are indicative of a population bottleneck. This is supported by the results in Fig. 2, which show a drastic decline in island fox populations on all islands around the year 2000. 
+* These results pose a challenge for island fox populations. As a species that already has demonstrated low genetic diversity, population bottlnecks further decrease population size and reduce genetic variation. 
 
 * Note: Tables of position, allele, and location of all SNPs for both analyses can be found in analysis_files -> final_proj.pdf
 
@@ -183,3 +186,5 @@ If I did these analyses again, I would...
 ## References
 
 Friends of the Island Fox -- pop data
+CIC
+NCBI
