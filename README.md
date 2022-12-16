@@ -68,7 +68,7 @@ Remote Cluster, RStudio
 2. IQ-TREE -- island foxes, mainland foxes (gray fox, red fox, kit fox), gray wolf
 3. Analysis of genetic diversity -- SNP density, allele frequency distribution, polymorphic sites
 
-#Analysis of genetic diversity
+Analysis of genetic diversity
 1. Compare SNP density & allele frequency found in mainland foxes vs island foxes
 2. Assess heterozygosity in mainland vs Channel Island populations as a measure of genetic variation
 
